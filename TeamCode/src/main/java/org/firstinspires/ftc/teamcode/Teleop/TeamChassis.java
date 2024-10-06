@@ -10,7 +10,7 @@ public class TeamChassis extends LinearOpMode {
     @Override
     public void runOpMode() throws InterruptedException {
 
-        // configuration:
+        // configuration names:
         DcMotor frontLeftMotor = hardwareMap.dcMotor.get("frontLeftMotor");
         DcMotor backLeftMotor = hardwareMap.dcMotor.get("backLeftMotor");
         DcMotor frontRightMotor = hardwareMap.dcMotor.get("frontRightMotor");
