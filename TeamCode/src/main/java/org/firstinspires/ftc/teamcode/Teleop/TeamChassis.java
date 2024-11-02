@@ -1,5 +1,4 @@
 package org.firstinspires.ftc.teamcode.Teleop;
-
 import com.qualcomm.robotcore.eventloop.opmode.LinearOpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
@@ -40,6 +39,7 @@ public class TeamChassis extends LinearOpMode {
             double frontRightPower = (ypower - xpower - rotation) / denominator;
             double backRightPower = (ypower + xpower - rotation) / denominator;
 
+            //Setting Power:
             frontLeftMotor.setPower(frontLeftPower);
             backLeftMotor.setPower(backLeftPower);
             frontRightMotor.setPower(frontRightPower);
