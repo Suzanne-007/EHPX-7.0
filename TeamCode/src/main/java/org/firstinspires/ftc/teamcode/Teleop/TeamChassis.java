@@ -39,7 +39,7 @@ public class TeamChassis extends LinearOpMode {
             double frontRightPower = (ypower - xpower - rotation) / denominator;
             double backRightPower = (ypower + xpower - rotation) / denominator;
 
-            //Setting Power:
+            //Setting Power to each motor:
             frontLeftMotor.setPower(frontLeftPower);
             backLeftMotor.setPower(backLeftPower);
             frontRightMotor.setPower(frontRightPower);
