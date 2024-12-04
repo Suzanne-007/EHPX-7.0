@@ -1,0 +1,25 @@
+Gamepad 1:
+
+Chassis-
+Left Stick-Left: Anticlockwise Rotation
+Left Stick-Right: Clockwise Rotation
+Right Stick-Up: Forward
+Right Stick-Down: Backward
+Right Stick-Left: Left Strafe
+Right Stick-Right: Right Strafe
+
+Claw-
+Left Bumper: Open Claw
+Right Bumper: Close Claw
+
+Gamepad 2:
+
+Arm-
+D-Pad Down: 0 Position
+D-Pad Left: Intake Position
+D-Pad Right: Dropping Position
+D-Pad Up: Ascent Position
+
+Linear Slide-
+Left Bumper: Extend Linear Slide
+Right Bumper: Retract Linear Slide
